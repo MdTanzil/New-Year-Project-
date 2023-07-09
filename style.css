@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 809px;
+  background-image: url("images/banner/banner2.png"),
+    linear-gradient(gray, rgb(143, 141, 141));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content:end ;
+
+
+}
+.banner-container {
+  position: absolute;
+  top: 220px;
+  left: 820px;
+  right: 200px;
+  text-align: right;
+}
+.banner-container h1 {
+  color: #151414;
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+.banner-container p{
+    color: #444343;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+margin-top: 10px;
+}
+.btn{
+    padding:20px 40px ;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.main-failures-continer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.failures-img{
+    width: 400px;
+}
+.fl-p{
+   width: 416px;
+   margin-top: 20px;
+   color: #444343;
+   font-weight: 400;
+ 
+}
+.fl-h1{
+    color: #151414;
+width: 288px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fl-li{
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.pl-h1{
+    width: 200px;
+    margin: auto;
+    color:  #151414;
+font-size: 40px;
+font-weight: 700;
+}
