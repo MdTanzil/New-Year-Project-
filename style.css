@@ -11,9 +11,7 @@ header {
   background-blend-mode: overlay;
   display: flex;
   align-items: center;
-  justify-content:end ;
-
-
+  justify-content: end;
 }
 .banner-container {
   position: absolute;
@@ -26,134 +24,125 @@ header {
   color: #151414;
   font-size: 50px;
   font-weight: 700;
-  
 }
-.banner-container p{
-    color: #444343;
+.banner-container p {
+  color: #444343;
 
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-margin-top: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
 }
-.btn{
-    padding:20px 40px ;
-    border-radius: 5px;
-    margin-top: 10px;
-    background-color: #F15B22;
-    color: white;
-    border: none;
-    outline: none;
-    margin-top: 20px;
+.btn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #f15b22;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 20px;
 }
-.main-failures-continer{
-    display: flex;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
-
+.main-failures-continer {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
 }
-.failures-img{
-    width: 400px;
+.failures-img {
+  width: 400px;
 }
-.fl-p{
-   width: 416px;
-   margin-top: 20px;
-   color: #444343;
-   font-weight: 400;
- 
+.fl-p {
+  width: 416px;
+  margin-top: 20px;
+  color: #444343;
+  font-weight: 400;
 }
-.fl-h1{
-    color: #151414;
-width: 288px;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.fl-h1 {
+  color: #151414;
+  width: 288px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.fl-li{
-    list-style: none;
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #444343;
+.fl-li {
+  list-style: none;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
 }
-.pl-h1{
-    width: 200px;
-    margin: auto;
-    color:  #151414;
-font-size: 40px;
-font-weight: 700;
+.pl-h1 {
+  width: 200px;
+  margin: auto;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
 }
-.cards{
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
+.cards {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
 }
-.card-img{
-    width: 70px;
-    margin: auto;
+.card-img {
+  width: 70px;
+  margin: auto;
 }
-.card-title{
-    color:  #151414;
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-padding: 10px;
+.card-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
 }
-.card{
-    text-align: center;
+.card {
+  text-align: center;
 }
-.card-title{
-    align-items: center;
+.card-title {
+  align-items: center;
 }
-.banner2-main-container{
-   margin: 200px; 
-   height: 300px;
-   background-image: url("images/watch.png"),linear-gradient(to right, #F15B22 ,rgba(241, 91, 34, 0.00));
-   background-blend-mode: overlay;
-   background-size: cover;
-   width: 80%;
-
+.banner2-main-container {
+  margin: 200px;
+  height: 300px;
+  background-image: url("images/watch.png"),
+    linear-gradient(to right, #f15b22, rgba(241, 91, 34, 0));
+  background-blend-mode: overlay;
+  background-size: cover;
+  width: 80%;
 }
-.h1-d{
-    color: #FFF;
-font-size: 40px;
-font-weight: 700;
-margin-left: 60px;
-margin-top: 60px;
-width: 459px;
+.h1-d {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 60px;
+  margin-top: 60px;
+  width: 459px;
 }
-.btnn{
-   padding:20px 40px ;
-    border-radius: 5px;
-   ;
-    background-color: white;
-    color: #F15B22;
-    border: none;
-    outline: none;
-    margin-top: 20px;
-    margin-left: 70px;
-
-
+.btnn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: #f15b22;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 70px;
 }
-footer section{
-    display: flex;
-    height: 40vh;
-    background-color: black;
-    color: white;
-    justify-content: space-around;
-    align-items: center;
-  
-
-
+footer section {
+  display: flex;
+  height: 40vh;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer-p{
-    width: 470px;
-    font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+.footer-p {
+  width: 470px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
